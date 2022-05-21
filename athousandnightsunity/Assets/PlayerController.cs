@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
 
     public ContactFilter2D movementFilter;
 
+    public VectorValue startingPosition;
+
     Vector2 movementInput;
     SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
@@ -23,6 +25,8 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>(); 
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+        transform.position = startingPosition.initialValue;
     }
 
     private void FixedUpdate(){
