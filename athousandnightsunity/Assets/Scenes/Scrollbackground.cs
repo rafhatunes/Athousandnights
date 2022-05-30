@@ -2,24 +2,18 @@ using UnityEngine;
 
 public class Scrollbackground : MonoBehaviour
 {
-    private Renderer myRenderer;
-    private Material myMaterial;
+   public MeshRenderer mr;
+   public float speed;
+   void Start()
+   {
 
-    private float offset;
 
-    [SerializeField] private float increase;
-    [SerializeField] private float speed;
-    // Start is called before the first frame update
-    void Start()
+   }
+
+    void Update()
     {
-        myRenderer = GetComponent<MeshRenderer>();
-        myMaterial = myRenderer.material;
-
+        mr.material.mainTextureOffset += new Vector2(speed * Time.deltaTime,0);
     }
-    private void Fixedupdate()
-    {
-        offset += increase;
-        myMaterial.SetTextureOffset("_MainTex", new Vector2((offset * speed), 0));
-    }
-
+  
+    
 }
