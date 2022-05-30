@@ -13810,6 +13810,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4500530350780694652, guid: 1cc35ea1a7314484190f7a46620ff6ac, type: 3}
+      propertyPath: collisionOffset
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -4500530350780694652, guid: 1cc35ea1a7314484190f7a46620ff6ac, type: 3}
       propertyPath: startingPosition
       value: 
       objectReference: {fileID: 11400000, guid: ab2ef8ecc6b14ad44ac49a5651983bfb, type: 2}
