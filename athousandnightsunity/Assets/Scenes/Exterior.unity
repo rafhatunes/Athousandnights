@@ -2971,7 +2971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Water
-  playerPosition: {x: -2.956, y: -0.603}
+  playerPosition: {x: -1.583, y: -0.419}
   playerStorage: {fileID: 11400000, guid: ab2ef8ecc6b14ad44ac49a5651983bfb, type: 2}
 --- !u!212 &1253868331
 SpriteRenderer:
@@ -14077,7 +14077,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7771587, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
