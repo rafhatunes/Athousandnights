@@ -15,6 +15,7 @@ public class npcscript : MonoBehaviour
     public bool playerIsClosi;
     
 
+
     public void Update()
     {  
          if(Keyboard.current[Key.F].wasPressedThisFrame && playerIsClosi)
@@ -86,3 +87,4 @@ public class npcscript : MonoBehaviour
         }
     }
 }
+
