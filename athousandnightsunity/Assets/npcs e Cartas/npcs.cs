@@ -3,7 +3,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.InputSystem;
 
-public class cartas : MonoBehaviour
+public class npcs : MonoBehaviour
 {
     [SerializeField] private GameObject dialogueMark;
     [SerializeField] private GameObject dialoguePanel;
