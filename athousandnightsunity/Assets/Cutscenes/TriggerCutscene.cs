@@ -8,9 +8,6 @@ using UnityEngine.Playables;
 
 public class TriggerCutscene : MonoBehaviour {
      
-    public string sceneToLoad; 
-    public Vector2 playerPosition; 
-    public VectorValue playerStorage; 
     public PlayableDirector timeline;
  
     // Use this for initialization
@@ -22,11 +19,10 @@ public class TriggerCutscene : MonoBehaviour {
         void OnTriggerEnter2D(Collider2D c)
 
     {
-        if (c.gameObject.tag == "Player")
+        if (c.gameObject.tag == "PlayerTag")
         {
             timeline.Play();
-            playerStorage.initialValue = playerPosition;
-            SceneManager.LoadScene(sceneToLoad);
+        
         }
     
 
