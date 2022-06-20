@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Menu/menu.unity
+    path: 
     guid: 1820466f6e91fc34daf5fedab2cbb697
   - enabled: 1
     path: Assets/Scenes/Menu.unity
@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Water.unity
     guid: e806d9366c27a52408385588eab0210b
+  - enabled: 1
+    path: Assets/Scenes/hospital.unity
+    guid: 2cfe3e36b649019458a0fc4ff1d2b250
   m_configObjects: {}
