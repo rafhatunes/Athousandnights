@@ -534,7 +534,7 @@ MonoBehaviour:
   - Para andar use as teclas W,A,S,D ou setas do teclado.
   - "Quando um elemento do jogo puder ser interagido, um ponto de exclama\xE7\xE3o
     '!' aparecer\xE1."
-  - Use a tecla 'G' para interagir. Boa jogatina.
+  - "Use a tecla 'G' para interagir. N\xE3o esque\xE7a de explorar o mapa! Boa jogo!"
   DialogueSpeed: 0.05
   DialogueAnimator: {fileID: 1667507733}
 --- !u!4 &464084726
@@ -6523,7 +6523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -6722,7 +6722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}

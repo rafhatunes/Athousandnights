@@ -578,7 +578,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7773438, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -914,7 +914,7 @@ PrefabInstance:
     - target: {fileID: 2246328936660776812, guid: a3a3adc2d0165354c8e49f08c7f8dec7, type: 3}
       propertyPath: dialogueLines.Array.data[2]
       value: "Marcus (Marido): Voc\xEA ter\xE1 que fazer uma escolha, o seu trabalho
-        ou sua fam\xEDlia!!!"
+        ou a sua fam\xEDlia!!!"
       objectReference: {fileID: 0}
     - target: {fileID: 2246328936660776813, guid: a3a3adc2d0165354c8e49f08c7f8dec7, type: 3}
       propertyPath: m_Name

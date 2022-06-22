@@ -10,7 +10,7 @@ public class cartas : MonoBehaviour
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField, TextArea(5,6)] private string[] dialogueLines;
 
-    private float typingTime = 0.06f;
+    private float typingTime = 0.05f;
     private bool isPlayerInRange;
     private bool didDialogueStart;
     private int lineIndex;

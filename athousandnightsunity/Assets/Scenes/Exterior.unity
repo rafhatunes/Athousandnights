@@ -5430,7 +5430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -15230,7 +15230,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 282.2, y: 179.4}
+  m_AnchoredPosition: {x: 311, y: 192}
   m_SizeDelta: {x: 23.3076, y: 38.9602}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1531086003
@@ -34164,7 +34164,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 316.1, y: 174.1}
+  m_AnchoredPosition: {x: 344.90002, y: 186.70003}
   m_SizeDelta: {x: 48.2293, y: 42.748}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1692952241
@@ -34714,7 +34714,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7783133, y: 1}
+    m_SensorSize: {x: 1.7762238, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -35662,7 +35662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d72ad091c37b246a2df5e03819f553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 0.6
   collisionOffset: 0.05
   movementFilter:
     useTriggers: 0
