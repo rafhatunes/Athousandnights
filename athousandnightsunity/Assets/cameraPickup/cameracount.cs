@@ -6,13 +6,21 @@ using UnityEngine;
 
 public class cameracount : MonoBehaviour
 {
+    private bool hasEntered;
     void Start()
     {
         ScoreTextScript.cameraAmount = 0;
     }
-    void OnTriggerEnter2D(Collider2D col)
+    private void OnTriggerEnter2D(Collider2D other)
    {
-        ScoreTextScript.cameraAmount += 1;
-        Destroy (gameObject);
+        if(other.gameObject.CompareTag("PlayerTag") && !hasEntered)
+        {
+                hasEntered=true;
+                 ScoreTextScript.cameraAmount += 1;
+                  GetComponent<AudioSource>().Play();
+        }     
+        Destroy (gameObject,1);
    }
+
+
 }

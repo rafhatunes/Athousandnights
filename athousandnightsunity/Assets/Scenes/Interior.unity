@@ -531,7 +531,7 @@ MonoBehaviour:
   DialogueText: {fileID: 753306224}
   Sentences:
   - "Ol\xE1, Caro Jogador(a)! Aqui est\xE1 um pequeno tutorial dedicado para voc\xEA."
-  - Para andar use a teclas W,A,S,D ou setas do teclado.
+  - Para andar use as teclas W,A,S,D ou setas do teclado.
   - "Quando um elemento do jogo puder ser interagido, um ponto de exclama\xE7\xE3o
     '!' aparecer\xE1."
   - Use a tecla 'G' para interagir. Boa jogatina.

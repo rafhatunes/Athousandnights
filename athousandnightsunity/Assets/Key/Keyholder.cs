@@ -3,8 +3,10 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Keyholder : MonoBehaviour
 {
+
     public event EventHandler OnKeysChanged;
 
    private List<Key1.KeyType> keyList;
@@ -37,11 +39,13 @@ public class Keyholder : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
+        
         Key1 key = collider.GetComponent<Key1>();
         if (key != null)
         {
             AddKey(key.GetKeyType());
-            Destroy(key.gameObject);
+            GetComponent<AudioSource>().Play();
+            Destroy(key.gameObject,1);
         }
 
         KeyDoor keyDoor = collider.GetComponent<KeyDoor>();
