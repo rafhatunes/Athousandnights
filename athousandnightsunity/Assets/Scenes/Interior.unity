@@ -534,7 +534,8 @@ MonoBehaviour:
   - Para andar use as teclas W,A,S,D ou setas do teclado.
   - "Quando um elemento do jogo puder ser interagido, um ponto de exclama\xE7\xE3o
     '!' aparecer\xE1."
-  - "Use a tecla 'G' para interagir. N\xE3o esque\xE7a de explorar o mapa! Boa jogo!"
+  - "Use a tecla 'G' para interagir. N\xE3o se esque\xE7a de explorar o mapa! Bom
+    jogo!"
   DialogueSpeed: 0.05
   DialogueAnimator: {fileID: 1667507733}
 --- !u!4 &464084726
@@ -762,7 +763,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -40, y: -20}
+  m_SizeDelta: {x: -80, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &753306224
 MonoBehaviour:
@@ -811,8 +812,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6425,7 +6426,7 @@ RectTransform:
   m_GameObject: {fileID: 1312139161}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 239625989}
@@ -6613,8 +6614,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 40.550003}
-  m_SizeDelta: {x: 0, y: 81.1}
+  m_AnchoredPosition: {x: 0, y: 121}
+  m_SizeDelta: {x: 0, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1667507733
 Animator:
