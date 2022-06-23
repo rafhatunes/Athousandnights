@@ -578,7 +578,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7785715, y: 1}
+    m_SensorSize: {x: 1.7773438, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -903,6 +903,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 416855252}
     - target: {fileID: 2246328936660776812, guid: a3a3adc2d0165354c8e49f08c7f8dec7, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246328936660776812, guid: a3a3adc2d0165354c8e49f08c7f8dec7, type: 3}
       propertyPath: dialogueLines.Array.data[0]
       value: 'Marcus (Marido): Rebecca, por favor, pare de se arriscar tanto!'
       objectReference: {fileID: 0}
@@ -915,6 +919,10 @@ PrefabInstance:
       propertyPath: dialogueLines.Array.data[2]
       value: "Marcus (Marido): Voc\xEA ter\xE1 que fazer uma escolha, o seu trabalho
         ou a sua fam\xEDlia!!!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246328936660776812, guid: a3a3adc2d0165354c8e49f08c7f8dec7, type: 3}
+      propertyPath: dialogueLines.Array.data[3]
+      value: "Rebecca:[Talvez Marcus nunca me entender\xE1]."
       objectReference: {fileID: 0}
     - target: {fileID: 2246328936660776813, guid: a3a3adc2d0165354c8e49f08c7f8dec7, type: 3}
       propertyPath: m_Name
@@ -2520,7 +2528,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &792184353
 MonoBehaviour:
@@ -5484,6 +5492,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 416855252}
     - target: {fileID: 2246328936660776812, guid: a3a3adc2d0165354c8e49f08c7f8dec7, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246328936660776812, guid: a3a3adc2d0165354c8e49f08c7f8dec7, type: 3}
       propertyPath: dialogueLines.Array.data[0]
       value: "Jessica (Chefe): \nBoa noite Rebecca,\nInfelizmente n\xE3o iremos publicar
         suas fotos por motivos que v\xE3o al\xE9m do meu alcance. Eu sei o quanto
@@ -5498,6 +5510,10 @@ PrefabInstance:
       propertyPath: dialogueLines.Array.data[2]
       value: "Jessica (Chefe): N\xE3o se precipite com a sua decis\xE3o, a proposta
         ainda est\xE1 de p\xE9. \n\nAtenciosamente,\nJessica"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246328936660776812, guid: a3a3adc2d0165354c8e49f08c7f8dec7, type: 3}
+      propertyPath: dialogueLines.Array.data[3]
+      value: 'Rebecca: [ >:0 ]'
       objectReference: {fileID: 0}
     - target: {fileID: 2246328936660776813, guid: a3a3adc2d0165354c8e49f08c7f8dec7, type: 3}
       propertyPath: m_Name
@@ -18589,7 +18605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d72ad091c37b246a2df5e03819f553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.2
+  moveSpeed: 0.3
   collisionOffset: 0.05
   movementFilter:
     useTriggers: 0
@@ -22336,6 +22352,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 416855252}
     - target: {fileID: 2246328936660776812, guid: a3a3adc2d0165354c8e49f08c7f8dec7, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246328936660776812, guid: a3a3adc2d0165354c8e49f08c7f8dec7, type: 3}
       propertyPath: dialogueLines.Array.data[0]
       value: "Steph (Filha): M\xE3e, hoje foi o meu anivers\xE1rio de 10 anos. Recebi
         seu cart\xE3o!"
@@ -22351,6 +22371,10 @@ PrefabInstance:
         falta. Te amo, volta logo.. <33
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246328936660776812, guid: a3a3adc2d0165354c8e49f08c7f8dec7, type: 3}
+      propertyPath: dialogueLines.Array.data[3]
+      value: 'Rebecca: [ :(( <3 ]'
       objectReference: {fileID: 0}
     - target: {fileID: 2246328936660776813, guid: a3a3adc2d0165354c8e49f08c7f8dec7, type: 3}
       propertyPath: m_Name
